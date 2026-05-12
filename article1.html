@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IntelliCare Platform Trial</title>
+
+<style>
+body{margin:0;font-family:Arial,sans-serif;color:#000;background:#eef6fc;line-height:1.6}
+.navbar{background:#7bb8e8;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:15px 40px}
+.nav-left{display:flex;align-items:center;gap:20px}
+.nav-left img{height:60px}
+.nav-title{font-size:20px;font-weight:bold}
+.nav-menu a{color:#fff;text-decoration:none;margin-left:25px;font-weight:bold}
+.hero{position:relative;height:450px;background:url('images/intellicaree.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero-overlay{background:rgba(0,0,0,0.45);position:absolute;inset:0}
+.hero-content{position:relative;color:#fff;z-index:2}
+.hero h1{font-size:44px;margin:0}
+.hero h2{font-size:22px;font-weight:normal}
+.container{max-width:1200px;margin:auto;padding:40px;display:flex;gap:40px}
+.main{flex:3}
+.sidebar{flex:1}
+.section{margin-bottom:35px}
+.section h3{color:#4A90C2}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{padding:12px;border:1px solid #ddd}
+.citation-box{background:rgba(200,200,200,0.3);padding:20px;border-radius:10px;position:sticky;top:20px}
+button{background:#6FAED9;color:white;border:none;padding:12px 20px;border-radius:8px;cursor:pointer}
+.resources-grid{
+display:flex;
+justify-content:space-between;
+gap:20px;
+flex-wrap:wrap;
+}
+.resource-card{
+position:relative;
+flex:1;
+min-width:220px;
+height:180px;
+background-size:cover;
+background-position:center;
+border-radius:12px;
+overflow:hidden;
+text-decoration:none;
+}
+.resource-overlay{
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+background:#7bb8e8;
+color:#fff;
+padding:15px;
+font-weight:bold;
+text-align:center;
+}
+</style>
+
+<script>
+function copyCitation(){
+navigator.clipboard.writeText(`Mohr, D. C., Schueller, S. M., Tomasino, K. N., Kaiser, S. M., Alam, N., Karr, C., Vergara, J. L., Gray, E. L., Kwasny, M. J., & Lattie, E. G. (2019). Comparison of the effects of coaching and receipt of app recommendations on depression, anxiety, and engagement in the IntelliCare platform: Factorial randomized controlled trial. Journal of Medical Internet Research, 21(8), e13609. https://doi.org/10.2196/13609`);
+alert('Citation copied to clipboard');
+}
+</script>
+</head>
+
+<body>
+
+<div class="navbar">
+<div class="nav-left">
+<img src="images/unigraz.png" alt="Logo">
+<div class="nav-title">Topics in Cognitive Psychology: Psychological Interventions Using Digital Technologies</div>
+</div>
+
+<div class="nav-menu">
+<a href="index2.html">Home</a>
+<a href="https://online.uni-graz.at/kfu_online/!wbTermin.wbEdit?pTerminNr=8802563">Seminar</a>
+<a href="https://www.jmir.org/2019/8/e13609/">Article</a>
+<a href="#resources">Extras</a>
+</div>
+</div>
+
+<div class="hero">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<h1>Comparison of Coaching and App Recommendations in IntelliCare</h1>
+<h2>Factorial Randomized Controlled Trial</h2>
+</div>
+</div>
+
+<div class="container">
+
+<div class="main">
+
+<div class="section">
+<h3>Introduction</h3>
+<p>This randomized controlled trial evaluates IntelliCare, a set of simple smartphone apps designed to reduce symptoms of depression and anxiety. Instead of one complex app, IntelliCare offers brief tools that can be used in less than one minute and integrated into daily life. The study tests whether two persuasive strategies, human coaching and automated weekly app recommendations—improve both engagement with the apps and clinical outcomes.</p>
+</div>
+
+<div class="section">
+<h3>About the Study</h3>
+<p>The trial included 301 adults with significant symptoms of depression or anxiety. Participants were randomly assigned for 8 weeks to one of four groups: coaching with recommendations, coaching without recommendations, self-guided use with recommendations, or self-guided use without recommendations. All participants could use the full IntelliCare platform. Symptoms and app use were tracked during the 8-week treatment and for 6 months afterward.</p>
+</div>
+
+<div class="section">
+<h3>Key Findings</h3>
+<table>
+<tr><th>Measure</th><th>Result</th></tr>
+<tr><td>Participants(N)</td><td>301</td></tr>
+<tr><td>Media App Sessions</td><td>216 (3-4 per day)</td></tr>
+<tr><td>Median time to last use</td><td>56 days (of 56)</td></tr>
+<tr><td>PHQ‑9 (depression) change</td><td>~13</td></tr>
+<tr><td>GAD‑7 (anxiety) change</td><td>~12</td></tr>
+<tr><td>Engagement Result</td><td>11 vs 7 apps (coached vs non‑coached)</td></tr>
+<tr><td>Median extra use after treatment</td><td>92 days after (8 weeks)</td></tr>
+</table>
+</div>
+
+<div class="section">
+<h3>Most Significant Results</h3>
+<p>IntelliCare use was high: the median time to last app use was 56 out of 56 treatment days, with a median of 216 sessions over 8 weeks. Most participants (84.0%, 253/301) continued to use the apps after treatment, for a median of 92 additional days. Weekly automated recommendations increased the number of app sessions during treatment (median 232 vs 202 sessions; P=.04). Coaching led participants to explore more apps, with a median of 11 downloaded apps compared with 7 in the non‑coached groups (P<.001).
+
+Across all conditions, depressive symptoms (PHQ‑9) and anxiety symptoms (GAD‑7) dropped markedly over time (Ps<.001). Coaching produced significantly greater reductions in anxiety than self‑guided use (P=.03), while the effect on depression was marginal (P=.06. Weekly recommendations were associated with stronger improvements in depression over time (interaction with time P=.04), but not in anxiety (P=.82). More frequent app use and longer engagement were related to better depression and anxiety outcomes at the end of treatment.</p>
+</div>
+
+<div class="section">
+<h3>Theoretical Relevance</h3>
+<p>This study supports a modular, “many small apps” approach rather than a single, feature‑heavy mental health app. By offering very brief, focused tools that match real-world smartphone use, IntelliCare achieved strong and sustained engagement, addressing a common problem in digital mental health. The findings also suggest that different persuasive strategies may work through different pathways: human coaching mainly encourages exploration and may be especially helpful for anxiety, whereas automated recommendations and in‑app prompts may be particularly useful for overcoming motivational barriers in depression. Overall, improving design and automated support can reduce the need for intensive human coaching while still achieving meaningful clinical benefits.</p>
+</div>
+
+<div class="section">
+<h3>Discussion</h3>
+<p>This study contributes to digital mental health research by separating two critical intervention components: coaching and recommendation systems. The results suggest that while coaching improves adherence, automated recommendation systems alone may not significantly enhance outcomes.</p>
+
+<p>This has important implications for scalability. Fully human-supported interventions are effective but costly, whereas app-based systems can reach larger populations. Future work must optimize hybrid models balancing personalization and efficiency.</p>
+</div>
+
+<div class="section">
+<h3>Future Implications</h3>
+<p>Future digital interventions may integrate artificial intelligence to simulate adaptive coaching while preserving scalability. The study also highlights the need for longitudinal research examining whether engagement gains persist over extended periods.</p>
+</div>
+
+<div class="section">
+<h3>Student Reflection</h3>
+<p>This article is especially relevant for cognitive psychology students because it demonstrates how theoretical behavioral principles are translated into digital clinical tools. It also raises important questions about how technology can complement, but not fully replace, human therapeutic interaction.</p>
+</div>
+
+<div class="section">
+<h3>Conclusion</h3>
+<p>The IntelliCare trial demonstrates that mobile mental health interventions can achieve meaningful symptom reduction, with coaching significantly improving engagement. These findings support the continued development of scalable psychological technologies grounded in empirical cognitive science.</p>
+</div>
+
+<div class="section resources" id="resources">
+<h3>Additional Resources</h3>
+
+<div class="resources-grid">
+
+<a class="resource-card" href="/pdfs/IntelliCare Coaching vs. App Recommendations for Depression & Anxiety Reference.pdf" style="background-image:url('images/image.png')">
+<div class="resource-overlay">Presentation</div>
+</a>
+
+<a class="resource-card" href="https://github.com" style="background-image:url('images/GitHub.jpg')">
+<div class="resource-overlay">Media Used to Create this Page</div>
+</a>
+
+<a class="resource-card" href="article2.html" style="background-image:url('images/physical.png')">
+<div class="resource-overlay">Self-Help Works</div>
+</a>
+
+</div>
+</div>
+
+</div>
+
+<div class="sidebar">
+<div class="citation-box">
+<h3>Cite the Review</h3>
+<p>Mohr et al. (2019)</p>
+<button onclick="copyCitation()">Copy APA 7 Citation</button>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
